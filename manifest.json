@@ -1,0 +1,10 @@
+{
+  "id": "vault-health-auditor",
+  "name": "Vault Health Auditor",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Audit note freshness, structure, metadata and knowledge debt inside your vault.",
+  "author": "Rafael Pulzi",
+  "authorUrl": "https://github.com/RafaelPulzi",
+  "isDesktopOnly": false
+}

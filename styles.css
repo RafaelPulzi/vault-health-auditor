@@ -1,0 +1,55 @@
+.vha-dashboard {
+  padding: 1rem;
+}
+
+.vha-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.vha-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.vha-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.vha-card,
+.vha-block,
+.vha-issue,
+.vha-svelte-placeholder {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  padding: 0.75rem;
+  background: var(--background-secondary);
+}
+
+.vha-block {
+  margin-bottom: 1rem;
+}
+
+.vha-issues {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.vha-info {
+  border-left: 4px solid var(--interactive-accent);
+}
+
+.vha-warning {
+  border-left: 4px solid var(--text-warning);
+}
+
+.vha-error,
+.vha-critical {
+  border-left: 4px solid var(--text-error);
+}

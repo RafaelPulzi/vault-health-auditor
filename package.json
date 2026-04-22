@@ -1,0 +1,22 @@
+﻿{
+  "name": "vault-health-auditor",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Obsidian plugin for vault maintenance, PKM quality and knowledge debt auditing.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "esbuild": "^0.25.0",
+    "obsidian": "latest",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.2",
+    "vitest": "^3.1.1"
+  }
+}

@@ -1,0 +1,17 @@
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+Thumbs.db
+
+# Obsidian local
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Build output
+main.js.map
+
+# Editor / OS
+.vscode/
+.idea/
