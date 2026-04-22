@@ -162,24 +162,10 @@ O dashboard atual exibe:
 
 ## Screenshots
 
-Adicione aqui as screenshots do dashboard para tornar o repositório mais apresentável.
 
-Exemplo:
-
-```md
 ![Dashboard Overview](./assets/dashboard-overview.png)
 ![Top Offenders](./assets/top-offenders.png)
 ![Recent Issues](./assets/recent-issues.png)
-```
-
-Sugestão de pasta:
-
-```text
-assets/
-├─ dashboard-overview.png
-├─ top-offenders.png
-└─ recent-issues.png
-```
 
 ---
 
